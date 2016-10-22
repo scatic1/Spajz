@@ -1,1 +1,1 @@
-<h1 style="color:green">Špajz</h1>
+<h1>Špajz</h1>
