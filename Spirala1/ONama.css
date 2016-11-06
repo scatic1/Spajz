@@ -64,8 +64,8 @@ padding-top:10px;
 }
 @media screen and (max-width:600px) {
   
-  .dio1 p{font-size:20px;padding-left:10px;}
-  .dio4 p{font-size:20px;padding-left:10px;}
+  .dio1 p{font-size:20px;padding-left:10px;height:auto;}
+  .dio4 p{font-size:20px;padding-left:10px;height:auto;}
 
 }
 
