@@ -1,0 +1,168 @@
+
+/*--Body--*/
+body {
+	background: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    position: relative;
+}
+
+
+
+
+
+/*--Logo Meni--*/
+
+.zaglavlje {
+border:1px hidden;
+background-color:#DE7C7C;
+  margin:0;
+  padding-bottom:2px;
+  padding-top:2px;
+}
+
+.menu img{max-width:100%;}
+
+.menu ul li {
+  display: inline;
+  
+}
+.meni{margin:0; }
+
+.menu{margin:0;text-align:left;}
+.menu a {
+  font-size: 20px;
+  color: white;
+  text-decoration:none; 
+  
+  padding:10px;
+}
+
+.menu li {
+	
+  list-style: none;
+  padding: 20px;
+}
+
+
+/*--Header--*/
+#naslov {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  padding-top: 130px;
+  padding-bottom: 100px;
+}
+#naslov h1{
+	color:white;
+	font-style:italic;
+	font-size:30px;
+	}
+#naslov .header-tekst {
+  background: none;
+  border: 10px hidden;
+  padding: 62px 20px 62px 20px;
+}
+
+.naslov-one {
+	
+  background-image:url('Slike/naslovna.jpg');
+  background-repeat:no-repeat;
+  padding: 32px 20px 32px 20px;
+  height: 30vh;
+  min-height: 200px;
+  padding-top: 100px;
+}
+
+/*--kraj--*/
+.kraj{border:1px hidden ; background-color:white;padding-bottom:10px; }
+.kraj h3{font-size:20px;font-style:'Source Sans Pro', sans-serif;  }
+.kraj p{font-size:15px;font-style:'Source Sans Pro', sans-serif;}
+.rvrijeme h3{color:white;}
+.rvrijeme p{color:white;}
+
+.rvrijeme{text-align:center;width:99.8%;border:1px groove #DE7C7C; background-color:#DE7C7C;padding-top:5px;}
+.email{
+float: left;
+width: 33%; 
+
+text-align:center;
+/*background-color:#F9CDCD;*/
+background-image:url('Slike/email.png');
+background-repeat:no-repeat;
+background-position:top;
+-o-background-size:15% auto;
+-webkit-background-size:15% auto;
+-moz-background-size:15% auto;
+background-size:15% auto;
+padding-top:50px;
+padding-bottom:50px;
+border:1px solid #DE7C7C;
+}
+.adresa {
+	
+float: left;
+width: 33%; 
+
+text-align:center;
+/*background-color:#F9CDCD;*/
+background-image:url('Slike/address.png');
+background-repeat:no-repeat;
+background-position:top ;
+-o-background-size:15% auto;
+-webkit-background-size:15% auto;
+-moz-background-size:15% auto;
+background-size:15% auto;
+
+padding-top:50px;
+padding-bottom:50px;
+border:1px ridge #DE7C7C;
+
+}
+.telefon{
+	float:left;
+	width:33%;
+	text-align:center;
+	/*background-color:#F9CDCD;*/
+	background-image:url('Slike/phone.png');
+background-repeat:no-repeat;
+-o-background-size:15% auto;
+-webkit-background-size:15% auto;
+-moz-background-size:15% auto;
+background-size:15% auto;
+background-position:top;
+
+	
+	padding-top:50px;
+	padding-bottom:50px;
+	border:1px ridge #DE7C7C;
+}
+
+
+@media screen and (max-width:768px) {
+  .body{}
+  
+  .menu ul li{display:block; padding:2px;}
+  
+  
+  .email {width:100%;padding-top:10px;
+	padding-bottom:10px;
+	background-position:left;
+background-size:10%;}
+  .telefon{width:100%;padding-top:10px;
+	padding-bottom:10px;
+	background-position:left;
+background-size:10%;}
+  .adresa{width:100%;padding-top:10px;
+	padding-bottom:10px;
+	background-position:left;
+background-size:10%;}
+#naslov h1{
+	
+	font-size:20px;
+	}
+	
+
+}
+

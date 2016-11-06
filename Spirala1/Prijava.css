@@ -1,0 +1,42 @@
+.prijava{border:1px solid #DE7C7C;width:49.7%;float:left; height:400px;}
+.forme{background-color:#DE7C7C;margin:0;border:1px hidden;width:100%;padding-top:10px;}
+.registracija{width:49.7%;float:left;border:1px solid #DE7C7C;height:400px;}
+
+
+.username, .mail ,.password ,.submit, .ime, .datum, .spol,h2{padding-left:30px;}
+input, textarea {
+	padding: 10px;
+	border: 1px solid #E5E5E5;
+	width: 200px;
+	color: #DE7C7C;
+	
+}
+
+textarea {
+	width: 400px;
+	height: 150px;
+	max-width: 300px;
+	line-height: 18px;
+
+}
+
+
+
+.submit input {
+	width: 100px; 
+	height: 40px;
+	background-color: #474E69; 
+	color: white;
+	
+		
+}
+ .forme h2 {
+	margin-bottom: 20px;
+	color: #474E69;
+}
+
+@media screen and (max-width:690px) {
+	
+	.prijava{width:100%;height:auto;}
+	.registracija{width:100%;height:auto;}
+	}
