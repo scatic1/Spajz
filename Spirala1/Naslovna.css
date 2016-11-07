@@ -97,7 +97,7 @@ background-color:#DE7C7C;
 float: left;
 width: 33.33%;
 max-width:100%; 
-
+background-color:white;
 text-align:center;
 border-bottom: thick solid #DE7C7C ;
 background-image:url('Slike/email.png');
@@ -111,7 +111,7 @@ padding-bottom:50px;
 }
 .email p{text-align:center;}
 .adresa {
-	
+	background-color:white;
 float: left;
 width: 33.33%;
 max-width:100%; 
@@ -137,12 +137,10 @@ max-width:100%;
 	border-bottom: thick solid #DE7C7C ;
 	background-image:url('Slike/phone.png');
 background-repeat:no-repeat;
--o-background-size:15% auto;
--webkit-background-size:15% auto;
--moz-background-size:15% auto;
+
 background-size:15% max-width:15%;
 background-position:left;
-
+background-color:white;
 
 	padding-top:50px;
 	padding-bottom:50px;
