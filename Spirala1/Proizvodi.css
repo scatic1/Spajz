@@ -1,23 +1,23 @@
-.slike{border:1px hidden; background-color:#DE7C7C;padding-top:20px;text-align:center;}
+.slike{width:100%; background-color:#DE7C7C;padding-top:20px;text-align:center;}
 
 .slika1{background-color:#DE7C7C;
 padding-top:20px;
 padding-bottom:5px;
-	border:1px hidden;
+	
 	float:left;
 	width:33.33%;
 	height:300px;;}
 .slika2{background-color:#DE7C7C;
 padding-top:20px;
 padding-bottom:5px;
-	border:1px hidden;
+	
 	float:left;
 	width:33.33%;
 	height:300px;}
 .slika3{background-color:#DE7C7C;
 padding-top:20px;
 padding-bottom:5px;
-	border:1px hidden;
+	
 	float:left;
 	width:33.33%;
 	height:300px;}
@@ -25,20 +25,20 @@ padding-bottom:5px;
 .slika4{background-color:#DE7C7C;
 padding-top:20px;
 
-	border:1px hidden;
+	
 	float:left;
 	width:33.33%;
 	height:300px;}
 .slika5{background-color:#DE7C7C;
 
 padding-top:20px;
-	border:1px hidden;
+	
 	float:left;
 	width:33.33%;
 	height:300px;}
 .slika6{background-color:#DE7C7C;
 padding-top:20px;
-	border:1px hidden;
+	
 	float:left;
 	width:33.33%;
 	height:300px;}

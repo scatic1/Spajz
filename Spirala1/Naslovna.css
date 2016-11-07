@@ -5,6 +5,9 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     position: relative;
+	max-width:1350px;
+	width:100%;
+	margin:0;
 }
 
 
@@ -19,6 +22,8 @@ background-color:#DE7C7C;
   margin:0;
   padding-bottom:2px;
   padding-top:2px;
+  width:100%;
+  max-width:1350px;
 }
 
 .menu img{max-width:100%;}
@@ -27,9 +32,9 @@ background-color:#DE7C7C;
   display: inline;
   
 }
-.meni{margin:0; }
+.meni{margin:0;max-width:1350px; }
 
-.menu{margin:0;text-align:left;}
+.menu{margin:0;text-align:left; }
 .menu a {
   font-size: 20px;
   color: white;
@@ -53,6 +58,8 @@ background-color:#DE7C7C;
   text-align: center;
   padding-top: 130px;
   padding-bottom: 100px;
+  max-width:1350px;
+  width:100%;
 }
 #naslov h1{
 	color:white;
@@ -69,10 +76,13 @@ background-color:#DE7C7C;
 	
   background-image:url('Slike/naslovna.jpg');
   background-repeat:no-repeat;
-  padding: 32px 20px 32px 20px;
+ 
   height: 30vh;
   min-height: 200px;
   padding-top: 100px;
+  max-height:200px;
+  max-width:1350px;
+  width:100%;
 }
 
 /*--kraj--*/
@@ -82,63 +92,62 @@ background-color:#DE7C7C;
 .rvrijeme h3{color:white;}
 .rvrijeme p{color:white;}
 
-.rvrijeme{text-align:center;width:99.8%;border:1px groove #DE7C7C; background-color:#DE7C7C;padding-top:5px;}
+.rvrijeme{text-align:center;width:100%;max-width:1350px; background-color:#DE7C7C ;padding-top:5px;padding-bottom:5px;}
 .email{
 float: left;
-width: 33%; 
+width: 33.33%;
+max-width:100%; 
 
 text-align:center;
-/*background-color:#F9CDCD;*/
+border-bottom: thick solid #DE7C7C ;
 background-image:url('Slike/email.png');
 background-repeat:no-repeat;
-background-position:top;
--o-background-size:15% auto;
--webkit-background-size:15% auto;
--moz-background-size:15% auto;
-background-size:15% auto;
+background-position:left;
+
+background-size:15% ;
 padding-top:50px;
 padding-bottom:50px;
-border:1px solid #DE7C7C;
+
 }
+.email p{text-align:center;}
 .adresa {
 	
 float: left;
-width: 33%; 
+width: 33.33%;
+max-width:100%; 
 
 text-align:center;
-/*background-color:#F9CDCD;*/
+border-bottom: thick solid #DE7C7C ;
 background-image:url('Slike/address.png');
 background-repeat:no-repeat;
-background-position:top ;
--o-background-size:15% auto;
--webkit-background-size:15% auto;
--moz-background-size:15% auto;
+background-position:left;
+
 background-size:15% auto;
 
 padding-top:50px;
 padding-bottom:50px;
-border:1px ridge #DE7C7C;
+
 
 }
 .telefon{
 	float:left;
-	width:33%;
+	width: 33.33%;
+max-width:100%; 
 	text-align:center;
-	/*background-color:#F9CDCD;*/
+	border-bottom: thick solid #DE7C7C ;
 	background-image:url('Slike/phone.png');
 background-repeat:no-repeat;
 -o-background-size:15% auto;
 -webkit-background-size:15% auto;
 -moz-background-size:15% auto;
-background-size:15% auto;
-background-position:top;
+background-size:15% max-width:15%;
+background-position:left;
 
-	
+
 	padding-top:50px;
 	padding-bottom:50px;
-	border:1px ridge #DE7C7C;
+	
 }
-
 
 @media screen and (max-width:768px) {
   .body{}
@@ -150,6 +159,7 @@ background-position:top;
 	padding-bottom:10px;
 	background-position:left;
 background-size:10%;}
+.email p,h3{text-align:center;}
   .telefon{width:100%;padding-top:10px;
 	padding-bottom:10px;
 	background-position:left;

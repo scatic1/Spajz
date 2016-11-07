@@ -1,6 +1,6 @@
-.prijava{border:1px solid #DE7C7C;width:49.7%;float:left; height:400px;}
-.forme{background-color:#DE7C7C;margin:0;border:1px hidden;width:100%;padding-top:10px;}
-.registracija{width:49.7%;float:left;border:1px solid #DE7C7C;height:400px;}
+.prijava{background-color:#DE7C7C;width:50%;float:left; height:600px;}
+.forme{background-color:#DE7C7C;margin:0;width:100%;padding-top:10px;height:100%;}
+.registracija{background-color:#DE7C7C;width:50%;float:left;height:600px;}
 
 
 .username, .mail ,.password ,.submit, .ime, .datum, .spol,h2{padding-left:30px;}
