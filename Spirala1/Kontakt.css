@@ -42,3 +42,8 @@ textarea {
 	
 	textarea{width:200px;}
 	}
+	
+	@media screen and (max-device-width:400px) {
+	
+	textarea{width:200px;}
+	}

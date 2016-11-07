@@ -65,7 +65,27 @@ img{display: block;
   
 
 }
+@media screen and (max-device-width:968px) {
+  .slika1{width:50%; height:300px;}
+  .slika2{width:50%;height:300px;}
+  .slika3{width:50%;height:300px;}
+  .slika4{width:50%;height:300px;padding-bottom:5px;}
+   .slika5{width:50%;height:300px;}
+  .slika6{width:50%;height:300px;}
+  
+
+}
 	@media screen and (max-width:768px) {
+  .slika1{width:100%; height:auto;}
+  .slika2{width:100%;height:auto;}
+  .slika3{width:100%;height:auto;}
+  .slika4{width:100%;height:auto;}
+   .slika5{width:100%;height:auto;}
+  .slika6{width:100%;height:auto;}
+  
+
+}
+@media screen and (max-device-width:768px) {
   .slika1{width:100%; height:auto;}
   .slika2{width:100%;height:auto;}
   .slika3{width:100%;height:auto;}

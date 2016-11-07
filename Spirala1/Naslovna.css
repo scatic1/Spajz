@@ -174,3 +174,30 @@ background-size:10%;}
 
 }
 
+@media screen and (max-device-width:768px) {
+  .body{}
+  
+  .menu ul li{display:block; padding:2px;}
+  
+  
+  .email {width:100%;padding-top:10px;
+	padding-bottom:10px;
+	background-position:left;
+background-size:10%;}
+.email p,h3{text-align:center;}
+  .telefon{width:100%;padding-top:10px;
+	padding-bottom:10px;
+	background-position:left;
+background-size:10%;}
+  .adresa{width:100%;padding-top:10px;
+	padding-bottom:10px;
+	background-position:left;
+background-size:10%;}
+#naslov h1{
+	
+	font-size:20px;
+	}
+	
+
+}
+

@@ -40,3 +40,9 @@ textarea {
 	.prijava{width:100%;height:auto;}
 	.registracija{width:100%;height:auto;}
 	}
+	
+	@media screen and (max-device-width:690px) {
+	
+	.prijava{width:100%;height:auto;}
+	.registracija{width:100%;height:auto;}
+	}
