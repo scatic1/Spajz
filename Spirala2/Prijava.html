@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<link rel="shortcut icon"  href="Slike/logo.png"/> 
+	<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<script type="text/javascript" src="js/validacijaPrijava.js"></script>
+	<script type="text/javascript" src="js/validacijaRegistracija.js"></script>
+	<link rel="stylesheet" type="text/css" href="Naslovna.css"> 
+<link rel="stylesheet" type="text/css" href="Prijava.css"> 	
+	
+	<TITLE>Špajz-Prijava</TITLE>
+	
+</HEAD>
+<BODY> 
+
+
+
+<!--Header-->
+<section id="naslov" class="naslov-one">
+	<div class="okvir">
+		<div class="slika">
+
+			
+          <div class="header-tekst">
+              <h1 class="tekst" >Prijavite se</h1>
+              
+          </div>
+			
+
+		</div>
+	</div>		
+</section>
+<div class="forme">
+<div class="prijava">
+<h2>Prijavi se</h2>
+	
+	<form class="form" onsubmit="return validacijaPrijava()">
+		
+		<p class="username">
+			<input type="text" name="username" id="username" placeholder="username" onchange="validacijaUsername()" ><br>
+			<label style="color:white"  id="komuser" for="username"></label>
+		</p>
+		
+		<p class="mail">
+			<input type="text" name="email" id="mail" placeholder="mail@gmail.com" onchange="validacijaMail()"><br>
+			<label style="color:white"  id="kommail" for="mail"></label>
+		</p>
+		<p class="password">
+		<input type="password" id="password" name="password" placeholder="*********" onchange="validacijaLozinka()"><br>
+		<label style="color:white"  id="kompassword" for="password"></label>
+		
+		</p>
+		<p class="submit">
+			<input type="submit" id="submit1" value="Prijava" >
+			<label style="color:white" id="komsubmit1" for="submit1"></label>
+		</p>
+	</form>
+</div>
+
+<div class="registracija">
+<h2>Registruj se</h2>
+	
+	<form class="form" onsubmit="return validacijaRegistracija()" >
+		
+		<p class="ime">
+			<input type="text" name="name" id="name" placeholder="" onchange="validacijaIme1()"><br>
+			<label style="color:white" id="kom" for="name">Ime</label>
+			
+		</p>
+		
+		
+		
+		
+		<p class="mail">
+			<input type="text" name="mail" id="mail1" placeholder="mail@gmail.com" onchange="validacijaMail1()"><br>
+			<label style="color:white"  id="kommail1" for="mail1"></label>
+			
+		</p>
+		
+		<p class="username">
+		<input type="text" name="username" id="username1"placeholder="username" onchange="validacijaUsername1()"><br>
+		<label style="color:white"  id="komuser1" for="username1"></label>
+		
+		</p>
+		
+		<p class="password">
+		<input type="password" id="password1" name="password" placeholder="*******" onchange="validacijaLozinka1()"><br>
+		<label style="color:white"  id="kompassword1" for="password1"></label>
+		
+		</p>
+		
+		
+		<p class="submit">
+			<input type="submit" id="submit2" value="Registruj se" >
+			<label style="color:white" id="komsubmit2" for="submit2"></label>
+		</p>
+	</form>
+</div></div>
+
+</BODY>
+</HTML>
